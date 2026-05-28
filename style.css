@@ -162,11 +162,13 @@ body{
     border:1px solid rgba(255,255,255,0.05);
     transition:0.3s;
     cursor:pointer;
+    transition:0.4s ease;
 }
 
 .card:hover{
     transform:translateY(-5px);
     border-color:#7a5cff;
+    transform:translateY(-8px) scale(1.02);
 }
 
 .card h4{
@@ -265,4 +267,35 @@ body{
     text-align:center;
     color:#7d84a3;
     font-size:13px;
+}
+
+@media (max-width: 900px){
+
+    body{
+        flex-direction:column;
+    }
+
+    .sidebar{
+        width:100%;
+        height:auto;
+        border-right:none;
+        border-bottom:1px solid rgba(255,255,255,0.05);
+    }
+
+    .main{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .login-panel{
+        width:100%;
+    }
+
+    .hero h2{
+        font-size:38px;
+    }
 }
