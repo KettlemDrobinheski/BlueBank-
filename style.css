@@ -12,9 +12,6 @@ body{
     display:flex;
 }
 
-/* =========================
-   SIDEBAR
-========================= */
 .sidebar{
     width:240px;
     background:#070b1f;
@@ -90,9 +87,6 @@ body{
     opacity:0.85;
 }
 
-/* =========================
-   MAIN
-========================= */
 .main{
     flex:1;
     padding:40px;
@@ -105,9 +99,6 @@ body{
     #050816;
 }
 
-/* =========================
-   HERO
-========================= */
 .hero{
     flex:1;
 }
@@ -135,9 +126,6 @@ body{
     margin-bottom:30px;
 }
 
-/* =========================
-   ALERT BOX
-========================= */
 .alert-box{
     background:#0b1023;
     border:1px solid rgba(255,255,255,0.05);
@@ -161,9 +149,6 @@ body{
     font-weight:600;
 }
 
-/* =========================
-   CARDS
-========================= */
 .cards{
     display:grid;
     grid-template-columns:repeat(3,1fr);
